@@ -63,3 +63,18 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 # hris
+
+
+<h1>Cara Install</h1>
+Clone Repository
+    git clone <link>
+Install Composer dependencies (laravel 9)
+    composer install
+Buat .env file
+    copy .env.example .env
+Buat app key
+    php artisan key generate
+Buat database hris pada mysql, lalu konfigurasi pada .env kemudian migrate
+    php artisan migrate
+Jalankan laravel dengan serve
+    php artisan serve
