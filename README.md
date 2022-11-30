@@ -66,15 +66,15 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
 
 <h1>Cara Install</h1>
-Clone Repository
-    git clone <link>
-Install Composer dependencies (laravel 9)
-    composer install
-Buat .env file
-    copy .env.example .env
-Buat app key
-    php artisan key generate
-Buat database hris pada mysql, lalu konfigurasi pada .env kemudian migrate
-    php artisan migrate
-Jalankan laravel dengan serve
-    php artisan serve
+Clone Repository <br>
+    git clone <link> <br>
+Install Composer dependencies (laravel 9) <br>
+    composer install <br>
+Buat .env file <br>
+    copy .env.example .env <br>
+Buat app key <br>
+    php artisan key generate <br>
+Buat database hris pada mysql, lalu konfigurasi pada .env kemudian migrate <br>
+    php artisan migrate <br>
+Jalankan laravel dengan serve <br>
+    php artisan serve <br>
